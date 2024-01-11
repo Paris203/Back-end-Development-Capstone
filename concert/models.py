@@ -40,7 +40,7 @@ class ConcertAttending(models.Model):
     def __str__(self):
         return self.attending
 
-
+print('hello')
 class Photo(models.Model):
     id = models.IntegerField(primary_key=True)
     pic_url = models.CharField(max_length=1000)
